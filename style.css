@@ -1,0 +1,15 @@
+h1 {
+  font-family: helvetica;
+
+}
+
+.content {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+}
+
+.header {
+  display:flex;
+  justify-content: center;
+}
