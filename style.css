@@ -1,6 +1,10 @@
 h1 {
   font-family: helvetica;
-
+  color: black;
+  text-align: center;
+  background: linear-gradient(black, gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .content {
