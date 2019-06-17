@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: #c6d6ef;
 }
 
 h1 {
@@ -16,10 +17,11 @@ h2 {
   text-shadow: 2px 2px 10px white;
 }
 
-.content {
-  display: flex;
-  flex-basis: 100%;
-  flex-direction: column;
+h3 {
+  font-family: helvetica;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 4px black;
 }
 
 .header {
@@ -27,8 +29,36 @@ h2 {
   background: linear-gradient(#3f567a,#161d28);
   justify-content: center;
   flex-direction: column;
+  
 }
 
-.title {
-  border: 
+/* .title {
+border:
+} */
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.content1 {
+  display: flex;
+  flex-basis: 45%;
+  flex-direction: column;
+  order: 1;
+  /* margin: 1%; */
+}
+
+.infographic {
+  width: 100%;
+  height: auto;
+}
+
+.content2 {
+  display: flex;
+  flex-basis: 45%;
+  flex-direction: column;
+  order: 2;
+  /* margin: %; */
 }
