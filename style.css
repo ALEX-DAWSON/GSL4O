@@ -24,12 +24,26 @@ h3 {
   text-shadow: 0px 0px 4px black;
 }
 
+/* p {
+  background-color: white;
+  font-family: helvetica;
+  color: black;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+} */
+
+::selection {
+  color: yellow;
+  background-color: red;
+}
+
 .header {
   display:flex;
   background: linear-gradient(#3f567a,#161d28);
   justify-content: center;
   flex-direction: column;
-  
+
 }
 
 /* .title {
@@ -61,4 +75,15 @@ border:
   flex-direction: column;
   order: 2;
   /* margin: %; */
+}
+
+.text {
+  background-color: white;
+  font-family: helvetica;
+  color: black;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
